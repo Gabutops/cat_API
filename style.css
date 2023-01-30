@@ -1,0 +1,59 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: Poppins;
+  background: #37353b;
+}
+header i {
+  font-size: 48px;
+} 
+h1 {
+  color: #f9f9f9;
+}
+p{
+  text-align: center;
+  color: #f9f9f9;
+}
+a{
+  color: #e879b5ff;
+  text-decoration: none;
+}
+button {
+  margin-top: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  background: #1a1a1a;
+  color: #f9f9f9;
+  border: 0;
+  border-radius: 8px;
+  padding: 20px 36px;
+  font-size: 16px;
+}
+footer i{
+ font-size: 17px; 
+}
+#github{
+ color: #f9f9f9; 
+}
+img{
+  border: 5px;
+  border-radius: 5px;
+  height: 20rem;
+  width: 20rem;
+  margin-top: 1em;
+}
+
+@keyframes spin {
+to { transform: rotate(360deg); }
+}
+.loader {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  
+}
